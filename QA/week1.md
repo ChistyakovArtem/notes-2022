@@ -18,12 +18,11 @@
 
 # Interpretation of the Interest rate
 
-- **Equilibrium rate of return** - Minimum rate of return an investor must receive in order to accept
-  the investment.
+**Equilibrium rate of return** - Minimum rate of return an investor must receive in order to accept the investment.
 
-- **Discount rate** - Rate that must be applied to a cash flow to determine it's present value.
+**Discount rate** - Rate that must be applied to a cash flow to determine its present value.
 
-- **The opportunity cost** - Value that investor forgos (loses) by investing.
+**The opportunity cost** - Value that investor forgos (loses) by investing.
 
 # How the Interest rate is formed
 
@@ -44,15 +43,16 @@
 
 **EAR - Effective annual rate.** Rate which an investor really gets.
 
-_SAR does not account for infra-year compounding while EAR does._
+SAR does not account for infra-year compounding while EAR does.
 
 
 # FV and PV
 
-**PV - Present Value.**\
-**FV - Future Value.**\
-**FV_x** **- Future Value after x compounding periods (years by
-default)**\
+PV - Present Value.
+
+FV - Future Value.
+
+$FV_x$ - Future Value after x compounding periods (years by default)
 
 $$FV_x = PV * (1 + SAR)^x$$
 
@@ -67,18 +67,17 @@ $$PV = \frac{FV_x}{(1 + \frac{SAR}{FoQ})^{x*FoQ} }$$
 
 # Annuities
 
-[**Annuity is a list of *identical* cash flows**]
-[Annuities can be]
+**Annuity is a list of *identical* cash flows**
 
-1.  [Finite]{.nodecor}
+Annuities can be
 
-    1.  [**Ordinary annuity** - Cash flows occur ***at the end*** of
-        each ***compounding period***.]{.nodecor}
+1.  [Finite]
 
-    2.  [**Annuity due** - Cash flows occur ***at the beginning*** of
-        each ***compounding period***.]{.nodecor}
+   1.  [**Ordinary annuity** - Cash flows occur ***at the end*** of each ***compounding period***.]{.nodecor}
 
-2.  [Infinite]{.nodecor}
+   2.  [**Annuity due** - Cash flows occur ***at the beginning*** of  each ***compounding period***.]{.nodecor}
+
+2.  [Infinite]
 
     1.  [**Perpetuity.**]{.nodecor}
 
